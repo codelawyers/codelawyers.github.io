@@ -18,5 +18,4 @@ function calculo(cantidad) {
 }
 function responder(){
     var x = document.getElementById("cuantia").value;
-    document.getElementById("resultado").innerHTML = "calculo(x) + " €uros";
-};
+    document.getElementById("resultado").innerHTML = calculo(x) + "€uros";}
