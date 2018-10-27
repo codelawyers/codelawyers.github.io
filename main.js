@@ -18,5 +18,5 @@ function calculo(cantidad) {
 }
 function responder(){
     var x = document.getElementById("cuantia").value;
-    document.getElementById("resultado").innerHTML = "Corresponden unos honorarios de: " + calculo(x) + " euros";
+    document.getElementById("resultado").innerHTML = "calculo(x) + " €uros";
 };
