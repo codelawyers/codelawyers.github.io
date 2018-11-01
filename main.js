@@ -19,5 +19,6 @@ function calculo(cantidad) {
 function responder(){
     var x = document.getElementById("cuantia").value;
     var y = document.getElementById("porcentaje").value;
-    document.getElementById("resultado").innerHTML = calculo(x)*(y/100) + " Euros";
+    var percent = calculo(x)*(y/100).toFixed(2);
+    document.getElementById("resultado").innerHTML = percent + " Euros" + "<br />" + "21% IVA: " + percent*(21/100);
 }
