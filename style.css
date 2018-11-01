@@ -1,5 +1,25 @@
 body {
     font-family: 'Lato'; 
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;    
+    margin-left:0.5em;
+}
+
+.navigator {
+    background-color: black;
+    height: 3em;
+    display: block;
+}
+
+.code {
+    color: green;
+}
+
+.lawyers {
+    color: #c0ac18f8;
 }
 
 a:link {
