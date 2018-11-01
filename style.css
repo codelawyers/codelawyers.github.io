@@ -12,7 +12,9 @@ h1 {
 .navigator {
     background-color: black;
     height: 3em;
-    display: block;
+    display: block; 
+    margin:0;
+    padding:0;
 }
 
 .content {
