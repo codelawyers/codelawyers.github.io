@@ -14,7 +14,20 @@
       <h1>CodeLawyers</h1>
       <h3>Cálculo de honorarios</h1>
       
-      <p><strong>Cuantía: <strong><input type="text" id="cuantia"><input type="button" onclick="responder()" value="Calcula"></p>      
+      <form>
+        <span><strong>Cuantía:</strong><input type="text" id="cuantia"></span> 
+        <select id="porcentaje">
+                <option value="10">10%</option>
+                <option value="20">20%</option>
+                <option value="30">30%</option>
+                <option value="40">40%</option> 
+                <option value="50">50%</option>      
+                <option value="60">60%</option>     
+                <option value="75">75%</option>    
+                <option value="100" selected>100%</option>
+        </select>
+        <input type="button" onclick="responder()" value="Calcula">
+    </form>
       <p><strong><span id="resultado"></span></strong></p>
   </body>
 </html>
