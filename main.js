@@ -18,5 +18,6 @@ function calculo(cantidad) {
 }
 function responder(){
     var x = document.getElementById("cuantia").value;
-    document.getElementById("resultado").innerHTML = calculo(x) + " Euros";
+    var y = document.getElementById("porcentaje").value;
+    document.getElementById("resultado").innerHTML = calculo(x)*(y/100) + " Euros";
 }
