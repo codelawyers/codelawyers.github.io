@@ -8,30 +8,50 @@
       <link rel="stylesheet" href="">
       <script src="main.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
-      <link rel="stylesheet" href="style.css">    
+      <link rel="stylesheet" href="honorarios.css">    
   </head>
   <body>
     <div class="navigator">
       <a href="index.html"><h1><span class="code">code</span><span class="lawyers">Lawyers</span></h1></a>
     </div>
+
     <div class=content>
-      <h3>Cálculo de honorarios</h1>
-      
-      <form>
-        <span><strong>Cuantía:</strong><input type="text" id="cuantia"></span> 
-        <select id="porcentaje">
-                <option value="10">10%</option>
-                <option value="20">20%</option>
-                <option value="30">30%</option>
-                <option value="40">40%</option> 
-                <option value="50">50%</option>      
-                <option value="60">60%</option>     
-                <option value="75">75%</option>    
-                <option value="100" selected>100%</option>
-        </select>
-        <input type="button" onclick="responder()" value="Calcula">
-    </form>
-      <p><strong><span id="resultado"></span></strong></p>
-      </div>
+        <div class="app">
+        <h3>Cálculo de honorarios</h1>
+
+          <div class="escala">
+            <span>Elige escala</span>
+            <select id="election">
+                <option value="Escala Laboral">Escala Laboral</option>
+                <option value="Escala General" selected>Escala General</option>
+            </select>
+          </div>
+
+          <div class="cuantia">
+            <span>Cuantía:</span> <input type="text" id="cuantia">
+          </div>
+
+          <div class="porcentaje">
+            <span>% sobre la escala</span>
+            <select id="porcentaje">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                    <option value="40">40%</option> 
+                    <option value="50">50%</option>      
+                    <option value="60">60%</option>     
+                    <option value="75">75%</option>    
+                    <option value="100" selected>100%</option>
+            </select>
+          </div>
+
+          <div class="boton">
+            <input id="botoncalc" type="button" onclick="responder()" value="Calcula">
+          </div>
+          <div class="resultado">
+            <p id="resultado"></strong></p>
+          </div> 
+        </div>
+    </div>
   </body>
 </html>
