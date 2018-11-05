@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+   
+}
+
+body {
+    font-family: 'Open Sans'; 
+    
+}
+
+h1 {
+    font-weight: bold;    
+    margin-left:0.5em;
+}
+
+.navigator {
+    background-color: black;
+    height: 3em;
+    display: block; 
+    
+}
+
+.content {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    background-color: #c0ac18f8;
+    width: 550px;
+    height: 250px;
+}
+
+.code {
+    color: green;
+    font-family: 'Lato';
+    display: inline;
+    background-color: black
+}
+
+.lawyers {
+    color: #c0ac18f8;
+    font-family: 'Lato';
+    display: inline;
+    background-color: black
+}
+
+a:link {
+    text-decoration: none;
+}
+span {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+select {
+    width: 150px;
+    height: 20px;
+}
+
+#cuantia {
+    width: 145px;
+}
+
+#botoncalc {
+    width: 450px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+}
+
+.app {
+    margin-left: 40px;
+}
+
+.resultado {
+    width: 455px;
+    height: 100px;
+    background-color: white;
+}
